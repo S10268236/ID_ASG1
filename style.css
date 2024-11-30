@@ -6,7 +6,33 @@ html, body {
     overflow-x: hidden;
 }
 .navbar {
-    
+    background-color: rgba(0, 0, 0, 0.6);
+    display:flex;
+    position: sticky;
+    justify-content: space-evenly;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding:10px;
+}
+.navbar ul {
+    list-style: none;
+    display:flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.navbar li {
+    margin: 15px;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+/* Add hover effect color */
+.navbar a:hover {
+    color: #d29f31; 
 }
 .bungee-spice-regular {
     font-family: "Bungee Spice", sans-serif;
