@@ -1,21 +1,26 @@
-.bokor-regular {
-    font-family: "Bokor", system-ui;
+html, body {
+    width:100%;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    overflow-x: hidden;
+}
+.navbar {
+    
+}
+.bungee-spice-regular {
+    font-family: "Bungee Spice", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-  
-.image_container {
-    position: relative;
-    display: inline-block;
+.logo {
+    display:flex;
+    position:relative;
+    left: 500px;
 }
-
-.overlay_text {
-    position: absolute;
-    top: 65%; 
-    left: 30%; 
-    transform: translate(-50%, -50%);  
-    color: goldenrod; 
-    padding: 5px 10px; 
-    font-size: 40px; 
-    text-align: center;
+#company_name {
+    color: white;
+    position: relative;
+    top:10px;
+    font-family: "Bungee Spice";
 }
