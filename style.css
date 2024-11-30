@@ -1,3 +1,4 @@
+/*Resize screen*/
 html, body {
     width:100%;
     height:100%;
@@ -5,6 +6,7 @@ html, body {
     padding:0px;
     overflow-x: hidden;
 }
+/*Navigation bar*/
 .navbar {
     background-color: rgba(0, 0, 0, 0.6);
     display:flex;
@@ -27,26 +29,117 @@ html, body {
 .navbar a {
     text-decoration: none;
     color: white;
-    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
     transition: color 0.3s ease;
 }
 /* Add hover effect color */
 .navbar a:hover {
     color: #d29f31; 
 }
+/*Company Name Font*/
 .bungee-spice-regular {
     font-family: "Bungee Spice", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+/*Logo positioning*/
 .logo {
     display:flex;
     position:relative;
     left: 500px;
 }
+/*Company Name design*/
 #company_name {
     color: white;
     position: relative;
     top:10px;
     font-family: "Bungee Spice";
+}
+/*overlay container*/
+.overlay_container {
+    position: relative;
+    height: 800px;
+    width: 1520px;
+}
+
+/* Overlay button */
+.overlay_button {
+    position: absolute;
+    bottom: 20px; 
+    left: 20px; 
+    padding: 20px 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    height: auto;
+    width: auto;
+}
+/* Change background on hover */
+.overlay_button:hover {
+    background-color: rgba(255, 165, 0, 0.8); 
+}
+.game_desc {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.intro_container{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 10px;
+}
+.intro_title {
+    font-size: 40px;
+    color: goldenrod;
+    font-weight: bold;
+    margin: 0;
+}
+.intro_para {
+    font-size: 24px;
+    color: whitesmoke;
+    margin: 0;
+    text-align: center;
+}
+.home_clip_container {
+    width: 100%; 
+    max-width: 600px; /* Set a max width for the video */
+    margin: 20px auto; /* Center the video */
+    overflow: hidden;
+    
+}
+video {
+    position:relative;
+    width: 100%; /* Ensure the video scales with the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: shadow for aesthetics */
+}
+.home_merch {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: darkolivegreen;
+}
+.merch_title {
+    font-size: 40px;
+    color: goldenrod;
+    margin: 0;
+    text-align: center;
+}
+.home_merch img {
+    width: 300px; 
+    height: 250px; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
 }
