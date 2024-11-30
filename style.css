@@ -168,3 +168,9 @@ video {
 .info {
     color:aliceblue
 }
+.context {
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: 20px;
+    font-weight: bold;
+}
