@@ -33,6 +33,9 @@ html, body {
     font-size: 24px;
     transition: color 0.3s ease;
 }
+#home {
+    
+}
 /* Add hover effect color */
 .navbar a:hover {
     color: #d29f31; 
@@ -296,4 +299,45 @@ video {
     font-size: 24px;
     border: 1px solid #ddd;
     border-radius: 5px; /* Rounded corners for the input */
+}
+.alpha_hero {
+    display: flex;
+    justify-content: center;
+}
+.alpha_hero img {
+    border-radius: 20px;
+}
+.registration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: gold;
+}
+.signup_button {
+    padding: 5px 10px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: gold;
+    border-radius: 4px;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: goldenrod;
+}
+.login_button {
+    padding: 5px 10px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: gold;
+    border-radius: 4px;
 }
