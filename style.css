@@ -186,7 +186,7 @@ video {
     font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(201, 183, 65, 0.7);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -218,9 +218,17 @@ video {
 }
 .call_para {
     font-size: 24px;
-    color:aliceblue
+    color:goldenrod
+}
+.kaushan-script-regular {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 .call_list {
     font-size: 36px;
-    color:red
+    font-family: "Kaushan Script";
+    color:gold
 }
+
+  
