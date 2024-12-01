@@ -215,6 +215,7 @@ video {
     color: #d29f31;
     font-size: 36px;
     font-weight: bold;
+
 }
 .call_para {
     font-size: 24px;
@@ -230,5 +231,39 @@ video {
     font-family: "Kaushan Script";
     color:gold
 }
+.merch_container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to the next row */
+    gap: 20px; 
+    justify-content: space-between;
+    padding: 20px;
+}
+.merch_whole {
+    display: flex;
+    flex: 1 1 100%; /* Ensures two items per row */;
+    flex-direction: row;
+    background: black;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin: 10px; /* Adds space between items */
 
-  
+}
+.merch_whole img {
+    width: 500px;
+    height: 500px;
+}
+.merch_content {
+    padding: 10px;
+}
+.merch_content h3 {
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 300px;
+    color: #333;
+}
+.merch_content p {
+    font-size: 30px;
+    color: #555;
+}
