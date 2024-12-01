@@ -33,9 +33,6 @@ html, body {
     font-size: 24px;
     transition: color 0.3s ease;
 }
-#home {
-    
-}
 /* Add hover effect color */
 .navbar a:hover {
     color: #d29f31; 
@@ -264,11 +261,11 @@ video {
     font-size: 36px;
     margin: 0;
     margin-bottom: 300px;
-    color: #333;
+    color: goldenrod;
 }
 .merch_content p {
     font-size: 30px;
-    color: #555;
+    color: goldenrod;
 }
 /*counter for adding items*/
 .counter {
