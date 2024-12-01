@@ -6,6 +6,24 @@ html, body {
     padding:0px;
     overflow-x: hidden;
 }
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        margin: 10px;
+    }
+}
+
+/* Very small screens (e.g., portrait mobile) */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+        margin: 5px;
+    }
+}
+.welcome {
+    font-size: 30px;
+    margin-top: 20px;
+}
 /*Navigation bar*/
 .navbar {
     background-color: rgba(93, 75, 75, 0.6);
