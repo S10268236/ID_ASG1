@@ -267,3 +267,34 @@ video {
     font-size: 30px;
     color: #555;
 }
+/*counter for adding items*/
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+/* Styling the counter buttons */
+.counter button {
+    padding: 5px 10px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+/* Disabled button styling */
+.counter button:disabled {
+    background-color: #ccc;/* Gray background for disabled buttons */
+    cursor: not-allowed;/* Changes cursor to indicate it's disabled */
+}
+/* Styling the input box for the counter */
+.counter input {
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Rounded corners for the input */
+}
