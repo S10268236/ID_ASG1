@@ -356,3 +356,11 @@ video {
     border: gold;
     border-radius: 4px;
 }
+.loginpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: goldenrod;
+}
